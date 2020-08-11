@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--aqui ponemos las direcciones local de las dependencias de boostrap/css-->
+    <link rel="stylesheet" href="node_modules/boostrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+    <h1 align="center">HOTELES</h1>
+  </div>
+    
+    <div class="container">
+
+      <div class="row"> <!--FILAS-->
+
+        <div class="col-sm-4"> <!--COLUMNA 1-->
+          <p>
+
+            <h2>¿Como funciona?</h2>
+            <p>Busca los hoteles de acuerdo</p>
+            
+          </p>
+        </div>
+
+        <div class="col-sm-4"><!--COLUMNA 2-->
+          <p>
+
+            <h3>¿Donde puedo reservar?</h3>
+            <p>Elije la ciudad que te interese y luego
+              realiza la reservacion con tus datos.</p>
+            
+          </p>
+        </div>
+
+        <div class="col-sm-4"><!--COLUMNA 3-->
+          <p>
+            
+              <h3>¿Como pago?</h3>
+              <p>Utiliza tu tarjeta favorita.</p>
+
+          </p>
+        </div>
+
+      </div>
+
+
+<!--La class d-flex flez-wrap , ajusta el contenido dentro del contenedor para que asi 
+no se salga de su marjen en este caso los pone en otra fila borra el flex-wrap para que veas
+aqui este flex lo trata como fila -->
+<!-- el flex-row-reverse solo pone al revez la filas si lo quitas regresa
+al orden que los escribiste en el codigo, en este caso lo aplica por fila -->
+      <div class="d-flex flex-wrap"> <!--FILA2-->
+
+        <div class="card-hotel d-flex flex-column justify-content-between"> <!--COLUMNA 1-->
+          <div>
+
+            <h4>Hotel
+              Barcelona
+            </h4>
+
+            <p>Busca los hoteles de acuerdo
+              a tu preferencia.</p>
+
+            </div>
+
+            <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+
+        </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between"><!--COLUMNA 2-->
+          <div>
+
+            <h4> Hotel Buenos Aires</h4>
+            <p>Hotel ubicado en pleno centro.</p>
+
+          </div>
+
+          <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+            
+        </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between"><!--COLUMNA 3-->
+          <div>
+            
+              <h4>Hotel Lima</h4>
+              <p>Hotel ubicado en pleno centro.</p>
+
+          </div> 
+
+              <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+
+        </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between"><!--COLUMNA 4-->
+          <div>
+            
+              <h4>Hotel Rio de Janeiro</h4>
+              <p>Hotel ubicado en pleno centro de Rio
+                de Janeiro a pocos metros de la playa.</p>
+          </div>
+
+                <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+
+        </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between"><!--COLUMNA 5-->
+          <div>
+            
+              <h4>Hotel La paz</h4>
+              <p>Hotel ubicado en pleno centro.</p>
+          </div>    
+              <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+
+        </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between"><!--COLUMNA 6-->
+          <div>
+            
+              <h4>Hotel Madrid</h4>
+              <p>Hotel ubicado en pleno centro.</p>
+
+          </div>    
+
+              <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+
+        </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between"><!--COLUMNA 7-->
+          <div>
+            
+              <h4>Hotel San Pablo</h4>
+              <p>Hotel ubicado en pleno centro.</p>
+
+          </div>    
+
+              <div><button class="btn btn-primary btn-reserva">Reserva</button></div>
+
+        </div>
+
+      </div>
+
+
+    </div> <!--CONTENEDOR 1-->
+
+    
+    <footer>
+      <div class="row", style="background-color: #5dade2;">
+
+        <div class="col-sm-4 d-flex flex-column ">
+          <a href="http://www.facebook.com">Facebook</a>
+          <a href="http://www.twitter.com">Twitter</a>
+          <a href="http://www.instagram.com">Instagram</a>
+        </div>
+
+        <div class="col-sm-4" , align="center">
+          <address>
+           <h3>Oficina central</h3>
+            <p>Tucuman 834, CABA. ARGENTINA</p>
+            <p>+52 93211111</p>
+            <p>contacto@guiahoteles.com</p>
+          </address>
+        </div>
+
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href="http://www.facebook.com">Nosotros</a>
+          <a href="http://www.twitter.com">Precios</a>
+          <a href="http://www.instagram.com">Terminos y
+          condiciones</a>
+        </div>
+
+      </div>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--aqui ponemos las direcciones local de las dependencias de boostrap/js, popper y jquery-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
+    <script src="node_modules/boostrap/dist/js/bootstrap.min.js"></script>
+    
+    
+
+  </body>
+</html>
